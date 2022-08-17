@@ -1,0 +1,6 @@
+let frutas = ['bananas', 'uvas', 'maçã', 'laranjas']
+
+for(let i = 0; 1 < frutas.length; i++){
+    console.log(`fruta: ${i}`)
+}
+

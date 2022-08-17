@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+    <select name="estado">
+        <option value="">Selecione um Estado</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="SP">São Paulo</option>
+        <option value="MG">Minas Gerais</option>
+    </select>
+    <div>
+        <h1>Manipulando o DOM</h1>
+        <p id="para01">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eius reiciendis est a. Nisi, aut a. Autem ipsam magni, distinctio aut saepe facere magnam. Nostrum facere at tempora deserunt non.</p>
+        <input type="text" name="email" id="email" placeholder="digite seu email principal aqui">
+        <input type="text" name="email" id="email" placeholder="digite seu email secundário aqui">
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eveniet eligendi molestias cum dolor perspiciatis deserunt et reprehenderit. Impedit laborum repellat dolores nisi sequi exercitationem alias minima praesentium accusantium iste?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident ullam, possimus doloribus totam facilis quasi excepturi maxime cum quia, aperiam dolores impedit tempore. Repudiandae accusantium id cupiditate beatae dolore quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste similique odio, neque impedit porro et obcaecati aliquid architecto animi corrupti possimus reprehenderit aliquam itaque laboriosam enim quaerat quos, alias non?</P>
+    </div>
+    <div class="comentários">
+        <h2>Comentários</h2>
+        <input type="text" name="novo-comentario" id="novo-comentario" placeholder="digite o seu comentário">
+        <button onclick="adicionarComentario()" >Adicionar Comentário</button>
+    </div>
+    <br><br><br><br>
+    <div id="novos-comentarios">
+
+    </div>
+
+</body>
+<script src="dom01.js"></script>
+</html>
