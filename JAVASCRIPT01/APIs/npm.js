@@ -5,3 +5,8 @@
     Vem instalado junto ao Node.js
 
 */
+
+let kindOf = require ('kind-of');
+let testeDeBooleano = true
+let testeDeTexto = 'Texto'
+console.log(kindOf(testeDeTexto))

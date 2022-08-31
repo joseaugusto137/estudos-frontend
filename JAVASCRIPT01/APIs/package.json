@@ -1,0 +1,26 @@
+{
+  "name": "usando_npm",
+  "version": "1.0.0",
+  "description": "projeto de teste de npm ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseaugusto137/estudos-frontend.git"
+  },
+  "keywords": [
+    "javascrpit",
+    "npm"
+  ],
+  "author": "José Augusto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseaugusto137/estudos-frontend/issues"
+  },
+  "homepage": "https://github.com/joseaugusto137/estudos-frontend#readme",
+  "dependencies": {
+    "kind-of": "^6.0.3"
+  }
+}
